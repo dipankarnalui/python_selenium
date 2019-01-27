@@ -14,7 +14,7 @@ driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div
 sleep(4) 
 #Enter password
 password_xpath="/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/content/form/div[1]/div/div[1]/div/div[1]/input"
-driver.find_element_by_xpath(password_xpath).send_keys("pwd")
+driver.find_element_by_xpath(password_xpath).send_keys("password")
 #click next button in password page
 driver.find_element_by_xpath("/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/content/span").click()
 sleep(2) 
